@@ -1,0 +1,12 @@
+{
+  "core": "./wp",
+  "plugins": [
+    ".",
+    "WordPress/health-check"
+  ],
+  "config": {
+    "SCRIPT_DEBUG": true,
+    "WP_DEBUG": true,
+    "WP_DEBUG_DISPLAY": true
+  }
+}
